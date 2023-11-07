@@ -1,0 +1,66 @@
+[debug] [2023-11-07T07:06:21.436Z] ----------------------------------------------------------------------
+[debug] [2023-11-07T07:06:21.438Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2023-11-07T07:06:21.438Z] CLI Version:   12.8.0
+[debug] [2023-11-07T07:06:21.439Z] Platform:      win32
+[debug] [2023-11-07T07:06:21.439Z] Node Version:  v18.16.0
+[debug] [2023-11-07T07:06:21.440Z] Time:          Tue Nov 07 2023 12:36:21 GMT+0530 (India Standard Time)
+[debug] [2023-11-07T07:06:21.440Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-11-07T07:06:21.512Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-11-07T07:06:21.513Z] > authorizing via signed-in user (rajaavinash1001@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\rajaa\OneDrive\Desktop\Explorers Merch\explorers-merch
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-11-07T07:06:24.256Z] Using project from CLI flag: ecom-nft
+[debug] [2023-11-07T07:06:24.259Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/ecom-nft [none]
+[debug] [2023-11-07T07:06:24.786Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/ecom-nft 200
+[debug] [2023-11-07T07:06:24.786Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/ecom-nft {"projectId":"ecom-nft","projectNumber":"418293630532","displayName":"Ecom","name":"projects/ecom-nft","resources":{"hostingSite":"ecom-nft","realtimeDatabaseInstance":"ecom-nft-default-rtdb"},"state":"ACTIVE","etag":"1_42a01330-74d9-491a-a23f-b9b955b754a4"}
+[info] i  Using project ecom-nft (Ecom) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2023-11-07T07:06:33.971Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2023-11-07T07:06:34.170Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2023-11-07T07:06:34.170Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"10.5.2","browserURL":"https://www.gstatic.com/firebasejs/10.5.2/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/10.5.2/firebase.tgz"},"live":{"version":"10.5","browserURL":"https://www.gstatic.com/firebasejs/live/10.5/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/10.5/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/10.5.2/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/10.5.2/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/10.5.2/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/10.5.2/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/10.5.2/firebase-auth/cordova.js","functions":"https://www.gstatic.com/firebasejs/10.5.2/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/10.5.2/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/10.5.2/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/10.5.2/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/10.5.2/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/10.5.2/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/10.5.2/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/10.5.2/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/10.5.2/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/10.5.2/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/10.5.2/firebase-firestore.memory.js"}}
+[info] i  Skipping write of public/index.html 
+[info] 
+[info] i  Detected a .git folder at C:\Users\rajaa\OneDrive\Desktop\Explorers Merch\explorers-merch 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=72155106&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2023-11-07T07:06:38.940Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2023-11-07T07:06:38.941Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2023-11-07T07:06:39.345Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2023-11-07T07:06:39.345Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2023-11-07T07:06:39.351Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2023-11-07T07:06:39.779Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2023-11-07T07:06:39.779Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"MalakaAvinashRaj","id":86678366,"node_id":"MDQ6VXNlcjg2Njc4MzY2","avatar_url":"https://avatars.githubusercontent.com/u/86678366?v=4","gravatar_id":"","url":"https://api.github.com/users/MalakaAvinashRaj","html_url":"https://github.com/MalakaAvinashRaj","followers_url":"https://api.github.com/users/MalakaAvinashRaj/followers","following_url":"https://api.github.com/users/MalakaAvinashRaj/following{/other_user}","gists_url":"https://api.github.com/users/MalakaAvinashRaj/gists{/gist_id}","starred_url":"https://api.github.com/users/MalakaAvinashRaj/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/MalakaAvinashRaj/subscriptions","organizations_url":"https://api.github.com/users/MalakaAvinashRaj/orgs","repos_url":"https://api.github.com/users/MalakaAvinashRaj/repos","events_url":"https://api.github.com/users/MalakaAvinashRaj/events{/privacy}","received_events_url":"https://api.github.com/users/MalakaAvinashRaj/received_events","type":"User","site_admin":false,"name":"Silly2","company":null,"blog":"","location":"india","email":null,"hireable":null,"bio":null,"twitter_username":"_Silly2","public_repos":14,"public_gists":1,"followers":2,"following":1,"created_at":"2021-06-29T16:30:54Z","updated_at":"2023-11-02T09:15:03Z","private_gists":0,"total_private_repos":4,"owned_private_repos":4,"disk_usage":335208,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as MalakaAvinashRaj 
+[info] 
